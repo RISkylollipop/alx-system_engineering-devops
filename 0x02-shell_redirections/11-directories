@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -la |wc -l
+find . -type d -print0 | xargs -d '\0' ls -d | sort -n -k 2 -f 2 | cut -d ' ' -f 1

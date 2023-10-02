@@ -1,0 +1,2 @@
+#!/bin/bash
+cut -d: -f2,1 /etc/passwd | sort -k 1 -n | grep -v root
