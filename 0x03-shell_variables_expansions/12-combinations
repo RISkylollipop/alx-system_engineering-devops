@@ -1,2 +1,2 @@
 #!/bin/bash
-echo echo {a..z}{a..z} |head -n 60 |fold -s3 |grep -v "oo"
+echo {a..z}{a..z} |head -n 60 |fold -s3 |grep -v 'oo'
