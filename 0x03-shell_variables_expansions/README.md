@@ -7,5 +7,5 @@
 10-love_exponent_breath     7-create_global_variable
 11-binary_to_decimal        8-true_knowledge
 12-combinations             9-divide_and_rule
-13-print_float              README.md
+13-print_float   
 1-hello_you
